@@ -1,0 +1,13 @@
+.main-img {
+    width: 100px; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.box {
+  margin : 20px; 
+  padding : 30px;
+  border : 1px solid black;
+  border-radius : 5px;
+}
