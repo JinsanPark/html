@@ -1,0 +1,28 @@
+.container {
+
+    width: 800px;
+    background-color: aqua;
+
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+}
+
+.title {
+    width: 70%;
+    height: 20%;
+}
+
+.left-box {
+
+    float: left;
+
+}
+
+.right-picture {
+
+    float: left;
+
+}
