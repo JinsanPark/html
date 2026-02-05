@@ -28,6 +28,15 @@
 
 }
 
-.content {
-    
+.navbar li {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 80px;
+}
+
+.navbar a {
+    font-size: 21px;
+    text-decoration: none;
 }
