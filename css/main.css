@@ -1,3 +1,11 @@
+div {
+    box-sizing: border-box; 
+}
+
+body {
+    margin: 0px;
+}
+
 .profile {
     width: 200px;
     display: block;
@@ -107,12 +115,12 @@
     text-align: center;
     background-color: beige;
     height: 150px;
-    width: 600px;
+    width: 60%;
     position: relative;
     top: 50px;
     left: 0;
     right: 0;
-    margin: auto;    
+    margin: auto;   
 }
 
 .desc-box p {
@@ -121,4 +129,46 @@
 
 .desc-box h2 {
     padding-top: 15px;
+}
+
+.input-box {
+
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input-box div {
+    margin-left: 25px;
+    margin-left: 25px;
+    
+}
+
+.input-box .first-name, .input-box .last-name {
+    float: left;
+    width: 100px;
+
+}
+
+.input-box .first-name input {
+    width: 100px;
+}
+
+.input-box .last-name input {
+    width: 100px;
+}
+
+.send-button {
+
+    background-color: orange;
+    color: aliceblue;
+    float: right;
+    width: 125px;
+    border: none;
+    position: relative;
+    bottom: 40px;
 }
