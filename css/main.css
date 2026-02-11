@@ -1,5 +1,9 @@
-div {
+div,input,textarea {
     box-sizing: border-box; 
+}
+
+table {
+    border-collapse: collapse;
 }
 
 body {
@@ -131,44 +135,48 @@ body {
     padding-top: 15px;
 }
 
-.input-box {
+.from-background {
+    background-color: grey;
+    padding: 30px;
+}
 
-    width: 50%;
+.form-white {
+    background-color: white;
+    padding: 30px;
+    width: 80%;
+    max-width: 600px;
     margin: auto;
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
 }
 
-.input-box div {
-    margin-left: 25px;
-    margin-left: 25px;
-    
+.form-input {
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
 }
 
-.input-box .first-name, .input-box .last-name {
+.w-50 {
+    width: 50%;
     float: left;
-    width: 100px;
-
+    padding: 10px;
 }
 
-.input-box .first-name input {
-    width: 100px;
-}
-
-.input-box .last-name input {
-    width: 100px;
+.w-100 {
+    width: 100%;
+    padding: 10px;
 }
 
 .send-button {
-
-    background-color: orange;
-    color: aliceblue;
-    float: right;
-    width: 125px;
-    border: none;
-    position: relative;
-    bottom: 40px;
+    padding: 10px;
+    background-color: blanchedalmond;
+    display: block;
+    margin-left: auto;
+    color: black;
 }
+
+td,th {
+    border: 1px solid black;
+}
+
