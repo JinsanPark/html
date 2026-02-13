@@ -187,7 +187,7 @@ td,th {
     width: 100%;
     height: 800px;
     background-color: cadetblue;
-    padding: 50px;
+    padding: 25px;
 }
 
 .cart-box {
@@ -224,4 +224,33 @@ padding-top: 25px;
     border: none;
     display: block;
     margin-left: auto;
+    cursor: pointer;
+}
+
+.cart-button:hover {
+    background-color: blueviolet;
+}
+
+.cart-button:active {
+    background-color: chocolate;
+}
+
+.cart-button:focus {
+    background-color: red;
+}
+
+.cart-amount{
+    text-align: end;
+}
+
+.custom-link {
+    text-decoration: none;
+}
+
+.custom-link:link {
+    color: darkgoldenrod;
+}
+
+.custom-link:visited {
+    color: black;
 }
